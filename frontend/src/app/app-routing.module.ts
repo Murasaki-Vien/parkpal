@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './components/login/login.component';
 
 const routes: Routes = [
-  {path : 'login',title: 'LOOK4ME:Login',  component : LoginComponent},
+  {path : 'login',title: 'Parkpal:Login',  component : LoginComponent},
 ];
 
 @NgModule({
