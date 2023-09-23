@@ -1,0 +1,128 @@
+p {
+    margin: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+.main_container {
+    height: 100vh;
+    display: flex;
+}
+
+/* Left Landing */
+.left-landing {
+    width: 50%;
+    height: 100vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+/* Right Landing */
+.right-landing {
+    height: 100vh;
+    background-color: #f3f3f3;
+    width: 50%;
+    padding: 20px 20px 0px 20px;
+}
+
+.right__landing__signin{
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+}
+
+.rAppName {
+    font-family: poppins;
+}
+
+.webName {
+    font-family: "Poppins", Courier, monospace;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.container {
+    font-family: "Poppins", Courier, monospace;
+    padding-top: 35px;
+}
+
+p.container__info {
+    width: fit-content;
+    font-weight: 500;
+}
+
+p.container__info1 {
+    font-size: small;
+    width: fit-content;
+    color: #8D8D8D;
+}
+
+/* for input forms */
+input{
+    height: 7vh;
+    font-family: Poppins;
+    font-size: 9px;
+    background-color: #f3f3f3;
+    border: 0px;
+    border-bottom: 1px solid black;
+}
+
+.right__forms{
+    display: flex;
+    flex-direction: column;
+}
+
+.right__signin{
+    margin: 9px 0 9px 0;
+    cursor: pointer;
+    border-radius: 0%;
+    background-color: #BB2525;
+    border: 0px;
+}
+
+.right__signin__text{
+    color:#f3f3f3;
+    padding: 5px 0px 5px 0px;
+}
+
+.right__forgotpass{
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    font-size: 9px;
+    color: #8D8D8D;
+    cursor: pointer;
+}
+
+.right__donthaveacc{
+    margin: 15px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right__donthaveacctxt{
+    font-family: Poppins;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7px;
+    color: #8D8D8D;
+    cursor: pointer;
+}
+
+.right__donthaveaccGetstart{
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    font-size: 7px;
+    color: #f3f3f3;
+}
+
+.right__donthaveaccbtn{
+    border: 0;
+    padding: 2px;
+    background-color: #FF6F6F
+}
