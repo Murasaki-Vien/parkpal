@@ -1,0 +1,63 @@
+
+span{
+    color: #BB2525;
+}
+
+.main__container{
+    height: 100vh;
+    background-color: #F3F3F3;
+    display: flex;
+    /* justify-content: ; */
+    padding: 20px 0 0 0;
+}
+.main__information__texttitles{
+    font-family: 'Poppins', Courier, monospace;
+    font-weight: 700;
+}
+
+.information__texttitles{
+    font-family: 'Poppins', Courier, monospace;
+    font-weight: 200;
+    font-size: 0.5rem;
+}
+
+/* screen size @700px */
+@media screen and (max-width: 400px){
+
+    input{
+        border: 0;
+        height: 4vh;
+        width: 50vw;
+        font-family: 'Poppins', Courier, monospace;
+        font-size: 9px;
+        padding: 9px 5px 9px 5px;
+    }
+
+    /* basic information */
+    .main__basicinformation{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .main__container{
+        height: 100%;
+        background-color: #F3F3F3;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0 20px 0;
+    }
+    /* end of basic information */
+
+    /* Vehicle Information */
+    .main__vehicleinformation{
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px 0 0 0;
+    }
+    /* end of vehicle section */
+
+}
